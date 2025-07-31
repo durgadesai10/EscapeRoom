@@ -1,0 +1,1331 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "Fab/Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h"
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeInterchangeInstancedFoliageTypeFactoryNode() {}
+
+// Begin Cross Module References
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2f();
+FAB_API UClass* Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode();
+FAB_API UClass* Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode_NoRegister();
+FOLIAGE_API UEnum* Z_Construct_UEnum_Foliage_EFoliageScaling();
+INTERCHANGECORE_API UClass* Z_Construct_UClass_UInterchangeFactoryBaseNode();
+UPackage* Z_Construct_UPackage__Script_Fab();
+// End Cross Module References
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomAffectDistanceFieldLighting
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAffectDistanceFieldLighting_Parms
+	{
+		bool AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static void NewProp_AttributeValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::NewProp_AttributeValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAffectDistanceFieldLighting_Parms*)Obj)->AttributeValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAffectDistanceFieldLighting_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::NewProp_AttributeValue_SetBit, METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAffectDistanceFieldLighting_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAffectDistanceFieldLighting_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "GetCustomAffectDistanceFieldLighting", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAffectDistanceFieldLighting_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAffectDistanceFieldLighting_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomAffectDistanceFieldLighting)
+{
+	P_GET_UBOOL_REF(Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->GetCustomAffectDistanceFieldLighting(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomAffectDistanceFieldLighting
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomAlignToNormal
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAlignToNormal_Parms
+	{
+		bool AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static void NewProp_AttributeValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::NewProp_AttributeValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAlignToNormal_Parms*)Obj)->AttributeValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAlignToNormal_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::NewProp_AttributeValue_SetBit, METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAlignToNormal_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAlignToNormal_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "GetCustomAlignToNormal", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAlignToNormal_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomAlignToNormal_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomAlignToNormal)
+{
+	P_GET_UBOOL_REF(Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->GetCustomAlignToNormal(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomAlignToNormal
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomRandomPitchAngle
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomPitchAngle_Parms
+	{
+		float AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomPitchAngle_Parms, AttributeValue), METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomPitchAngle_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomPitchAngle_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "GetCustomRandomPitchAngle", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomPitchAngle_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomPitchAngle_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomRandomPitchAngle)
+{
+	P_GET_PROPERTY_REF(FFloatProperty,Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->GetCustomRandomPitchAngle(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomRandomPitchAngle
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomRandomYaw
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomYaw_Parms
+	{
+		bool AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static void NewProp_AttributeValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::NewProp_AttributeValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomYaw_Parms*)Obj)->AttributeValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomYaw_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::NewProp_AttributeValue_SetBit, METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomYaw_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomYaw_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "GetCustomRandomYaw", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomYaw_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomRandomYaw_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomRandomYaw)
+{
+	P_GET_UBOOL_REF(Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->GetCustomRandomYaw(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomRandomYaw
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomScaleX
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleX_Parms
+	{
+		FVector2f AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleX_Parms, AttributeValue), Z_Construct_UScriptStruct_FVector2f, METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleX_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleX_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "GetCustomScaleX", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleX_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleX_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomScaleX)
+{
+	P_GET_STRUCT_REF(FVector2f,Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->GetCustomScaleX(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomScaleX
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomScaleY
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleY_Parms
+	{
+		FVector2f AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleY_Parms, AttributeValue), Z_Construct_UScriptStruct_FVector2f, METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleY_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleY_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "GetCustomScaleY", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleY_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleY_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomScaleY)
+{
+	P_GET_STRUCT_REF(FVector2f,Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->GetCustomScaleY(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomScaleY
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomScaleZ
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleZ_Parms
+	{
+		FVector2f AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleZ_Parms, AttributeValue), Z_Construct_UScriptStruct_FVector2f, METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleZ_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleZ_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "GetCustomScaleZ", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleZ_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaleZ_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomScaleZ)
+{
+	P_GET_STRUCT_REF(FVector2f,Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->GetCustomScaleZ(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomScaleZ
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomScaling
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaling_Parms
+	{
+		EFoliageScaling AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FBytePropertyParams NewProp_AttributeValue_Underlying;
+	static const UECodeGen_Private::FEnumPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::NewProp_AttributeValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaling_Parms, AttributeValue), Z_Construct_UEnum_Foliage_EFoliageScaling, METADATA_PARAMS(0, nullptr) }; // 3283125269
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaling_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaling_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::NewProp_AttributeValue_Underlying,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "GetCustomScaling", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaling_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomScaling_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomScaling)
+{
+	P_GET_ENUM_REF(EFoliageScaling,Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->GetCustomScaling((EFoliageScaling&)(Z_Param_Out_AttributeValue));
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomScaling
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomStaticMesh
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomStaticMesh_Parms
+	{
+		FString AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStrPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomStaticMesh_Parms, AttributeValue), METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomStaticMesh_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomStaticMesh_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "GetCustomStaticMesh", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomStaticMesh_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomStaticMesh_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomStaticMesh)
+{
+	P_GET_PROPERTY_REF(FStrProperty,Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->GetCustomStaticMesh(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomStaticMesh
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomWorldPositionOffsetDisableDistance
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomWorldPositionOffsetDisableDistance_Parms
+	{
+		int32 AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FIntPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomWorldPositionOffsetDisableDistance_Parms, AttributeValue), METADATA_PARAMS(0, nullptr) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomWorldPositionOffsetDisableDistance_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomWorldPositionOffsetDisableDistance_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "GetCustomWorldPositionOffsetDisableDistance", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomWorldPositionOffsetDisableDistance_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventGetCustomWorldPositionOffsetDisableDistance_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomWorldPositionOffsetDisableDistance)
+{
+	P_GET_PROPERTY_REF(FIntProperty,Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->GetCustomWorldPositionOffsetDisableDistance(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function GetCustomWorldPositionOffsetDisableDistance
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomAffectDistanceFieldLighting
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAffectDistanceFieldLighting_Parms
+	{
+		bool AttributeValue;
+		bool bAddApplyDelegate;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "CPP_Default_bAddApplyDelegate", "true" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAddApplyDelegate_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static void NewProp_AttributeValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_AttributeValue;
+	static void NewProp_bAddApplyDelegate_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bAddApplyDelegate;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_AttributeValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAffectDistanceFieldLighting_Parms*)Obj)->AttributeValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAffectDistanceFieldLighting_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_AttributeValue_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeValue_MetaData), NewProp_AttributeValue_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_bAddApplyDelegate_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAffectDistanceFieldLighting_Parms*)Obj)->bAddApplyDelegate = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_bAddApplyDelegate = { "bAddApplyDelegate", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAffectDistanceFieldLighting_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_bAddApplyDelegate_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bAddApplyDelegate_MetaData), NewProp_bAddApplyDelegate_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAffectDistanceFieldLighting_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAffectDistanceFieldLighting_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_bAddApplyDelegate,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "SetCustomAffectDistanceFieldLighting", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAffectDistanceFieldLighting_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAffectDistanceFieldLighting_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomAffectDistanceFieldLighting)
+{
+	P_GET_UBOOL(Z_Param_AttributeValue);
+	P_GET_UBOOL(Z_Param_bAddApplyDelegate);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->SetCustomAffectDistanceFieldLighting(Z_Param_AttributeValue,Z_Param_bAddApplyDelegate);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomAffectDistanceFieldLighting
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomAlignToNormal
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAlignToNormal_Parms
+	{
+		bool AttributeValue;
+		bool bAddApplyDelegate;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "CPP_Default_bAddApplyDelegate", "true" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAddApplyDelegate_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static void NewProp_AttributeValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_AttributeValue;
+	static void NewProp_bAddApplyDelegate_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bAddApplyDelegate;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_AttributeValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAlignToNormal_Parms*)Obj)->AttributeValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAlignToNormal_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_AttributeValue_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeValue_MetaData), NewProp_AttributeValue_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_bAddApplyDelegate_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAlignToNormal_Parms*)Obj)->bAddApplyDelegate = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_bAddApplyDelegate = { "bAddApplyDelegate", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAlignToNormal_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_bAddApplyDelegate_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bAddApplyDelegate_MetaData), NewProp_bAddApplyDelegate_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAlignToNormal_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAlignToNormal_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_bAddApplyDelegate,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "SetCustomAlignToNormal", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAlignToNormal_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomAlignToNormal_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomAlignToNormal)
+{
+	P_GET_UBOOL(Z_Param_AttributeValue);
+	P_GET_UBOOL(Z_Param_bAddApplyDelegate);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->SetCustomAlignToNormal(Z_Param_AttributeValue,Z_Param_bAddApplyDelegate);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomAlignToNormal
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomRandomPitchAngle
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomPitchAngle_Parms
+	{
+		float AttributeValue;
+		bool bAddApplyDelegate;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "CPP_Default_bAddApplyDelegate", "true" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAddApplyDelegate_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_AttributeValue;
+	static void NewProp_bAddApplyDelegate_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bAddApplyDelegate;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomPitchAngle_Parms, AttributeValue), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeValue_MetaData), NewProp_AttributeValue_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::NewProp_bAddApplyDelegate_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomPitchAngle_Parms*)Obj)->bAddApplyDelegate = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::NewProp_bAddApplyDelegate = { "bAddApplyDelegate", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomPitchAngle_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::NewProp_bAddApplyDelegate_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bAddApplyDelegate_MetaData), NewProp_bAddApplyDelegate_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomPitchAngle_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomPitchAngle_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::NewProp_bAddApplyDelegate,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "SetCustomRandomPitchAngle", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomPitchAngle_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomPitchAngle_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomRandomPitchAngle)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_AttributeValue);
+	P_GET_UBOOL(Z_Param_bAddApplyDelegate);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->SetCustomRandomPitchAngle(Z_Param_AttributeValue,Z_Param_bAddApplyDelegate);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomRandomPitchAngle
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomRandomYaw
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomYaw_Parms
+	{
+		bool AttributeValue;
+		bool bAddApplyDelegate;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "CPP_Default_bAddApplyDelegate", "true" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAddApplyDelegate_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static void NewProp_AttributeValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_AttributeValue;
+	static void NewProp_bAddApplyDelegate_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bAddApplyDelegate;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_AttributeValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomYaw_Parms*)Obj)->AttributeValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomYaw_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_AttributeValue_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeValue_MetaData), NewProp_AttributeValue_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_bAddApplyDelegate_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomYaw_Parms*)Obj)->bAddApplyDelegate = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_bAddApplyDelegate = { "bAddApplyDelegate", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomYaw_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_bAddApplyDelegate_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bAddApplyDelegate_MetaData), NewProp_bAddApplyDelegate_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomYaw_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomYaw_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_bAddApplyDelegate,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "SetCustomRandomYaw", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomYaw_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomRandomYaw_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomRandomYaw)
+{
+	P_GET_UBOOL(Z_Param_AttributeValue);
+	P_GET_UBOOL(Z_Param_bAddApplyDelegate);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->SetCustomRandomYaw(Z_Param_AttributeValue,Z_Param_bAddApplyDelegate);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomRandomYaw
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomScaleX
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleX_Parms
+	{
+		FVector2f AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleX_Parms, AttributeValue), Z_Construct_UScriptStruct_FVector2f, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeValue_MetaData), NewProp_AttributeValue_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleX_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleX_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "SetCustomScaleX", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleX_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleX_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomScaleX)
+{
+	P_GET_STRUCT_REF(FVector2f,Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->SetCustomScaleX(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomScaleX
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomScaleY
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleY_Parms
+	{
+		FVector2f AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleY_Parms, AttributeValue), Z_Construct_UScriptStruct_FVector2f, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeValue_MetaData), NewProp_AttributeValue_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleY_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleY_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "SetCustomScaleY", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleY_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleY_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomScaleY)
+{
+	P_GET_STRUCT_REF(FVector2f,Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->SetCustomScaleY(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomScaleY
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomScaleZ
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleZ_Parms
+	{
+		FVector2f AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleZ_Parms, AttributeValue), Z_Construct_UScriptStruct_FVector2f, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeValue_MetaData), NewProp_AttributeValue_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleZ_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleZ_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "SetCustomScaleZ", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleZ_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaleZ_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomScaleZ)
+{
+	P_GET_STRUCT_REF(FVector2f,Z_Param_Out_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->SetCustomScaleZ(Z_Param_Out_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomScaleZ
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomScaling
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaling_Parms
+	{
+		EFoliageScaling AttributeValue;
+		bool bAddApplyDelegate;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "CPP_Default_bAddApplyDelegate", "true" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAddApplyDelegate_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FBytePropertyParams NewProp_AttributeValue_Underlying;
+	static const UECodeGen_Private::FEnumPropertyParams NewProp_AttributeValue;
+	static void NewProp_bAddApplyDelegate_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bAddApplyDelegate;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_AttributeValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaling_Parms, AttributeValue), Z_Construct_UEnum_Foliage_EFoliageScaling, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeValue_MetaData), NewProp_AttributeValue_MetaData) }; // 3283125269
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_bAddApplyDelegate_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaling_Parms*)Obj)->bAddApplyDelegate = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_bAddApplyDelegate = { "bAddApplyDelegate", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaling_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_bAddApplyDelegate_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bAddApplyDelegate_MetaData), NewProp_bAddApplyDelegate_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaling_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaling_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_AttributeValue_Underlying,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_bAddApplyDelegate,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "SetCustomScaling", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaling_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomScaling_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomScaling)
+{
+	P_GET_ENUM(EFoliageScaling,Z_Param_AttributeValue);
+	P_GET_UBOOL(Z_Param_bAddApplyDelegate);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->SetCustomScaling(EFoliageScaling(Z_Param_AttributeValue),Z_Param_bAddApplyDelegate);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomScaling
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomStaticMesh
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomStaticMesh_Parms
+	{
+		FString AttributeValue;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStrPropertyParams NewProp_AttributeValue;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomStaticMesh_Parms, AttributeValue), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeValue_MetaData), NewProp_AttributeValue_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomStaticMesh_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomStaticMesh_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "SetCustomStaticMesh", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomStaticMesh_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomStaticMesh_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomStaticMesh)
+{
+	P_GET_PROPERTY(FStrProperty,Z_Param_AttributeValue);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->SetCustomStaticMesh(Z_Param_AttributeValue);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomStaticMesh
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomWorldPositionOffsetDisableDistance
+struct Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics
+{
+	struct InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomWorldPositionOffsetDisableDistance_Parms
+	{
+		int32 AttributeValue;
+		bool bAddApplyDelegate;
+		bool ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Interchange | Node | InstancedFoliageTypeFactory" },
+		{ "CPP_Default_bAddApplyDelegate", "true" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeValue_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAddApplyDelegate_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FIntPropertyParams NewProp_AttributeValue;
+	static void NewProp_bAddApplyDelegate_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bAddApplyDelegate;
+	static void NewProp_ReturnValue_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_AttributeValue = { "AttributeValue", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomWorldPositionOffsetDisableDistance_Parms, AttributeValue), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeValue_MetaData), NewProp_AttributeValue_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_bAddApplyDelegate_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomWorldPositionOffsetDisableDistance_Parms*)Obj)->bAddApplyDelegate = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_bAddApplyDelegate = { "bAddApplyDelegate", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomWorldPositionOffsetDisableDistance_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_bAddApplyDelegate_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bAddApplyDelegate_MetaData), NewProp_bAddApplyDelegate_MetaData) };
+void Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+{
+	((InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomWorldPositionOffsetDisableDistance_Parms*)Obj)->ReturnValue = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomWorldPositionOffsetDisableDistance_Parms), &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_AttributeValue,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_bAddApplyDelegate,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, nullptr, "SetCustomWorldPositionOffsetDisableDistance", nullptr, nullptr, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomWorldPositionOffsetDisableDistance_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::InterchangeInstancedFoliageTypeFactoryNode_eventSetCustomWorldPositionOffsetDisableDistance_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomWorldPositionOffsetDisableDistance)
+{
+	P_GET_PROPERTY(FIntProperty,Z_Param_AttributeValue);
+	P_GET_UBOOL(Z_Param_bAddApplyDelegate);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(bool*)Z_Param__Result=P_THIS->SetCustomWorldPositionOffsetDisableDistance(Z_Param_AttributeValue,Z_Param_bAddApplyDelegate);
+	P_NATIVE_END;
+}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode Function SetCustomWorldPositionOffsetDisableDistance
+
+// Begin Class UInterchangeInstancedFoliageTypeFactoryNode
+void UInterchangeInstancedFoliageTypeFactoryNode::StaticRegisterNativesUInterchangeInstancedFoliageTypeFactoryNode()
+{
+	UClass* Class = UInterchangeInstancedFoliageTypeFactoryNode::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "GetCustomAffectDistanceFieldLighting", &UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomAffectDistanceFieldLighting },
+		{ "GetCustomAlignToNormal", &UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomAlignToNormal },
+		{ "GetCustomRandomPitchAngle", &UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomRandomPitchAngle },
+		{ "GetCustomRandomYaw", &UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomRandomYaw },
+		{ "GetCustomScaleX", &UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomScaleX },
+		{ "GetCustomScaleY", &UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomScaleY },
+		{ "GetCustomScaleZ", &UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomScaleZ },
+		{ "GetCustomScaling", &UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomScaling },
+		{ "GetCustomStaticMesh", &UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomStaticMesh },
+		{ "GetCustomWorldPositionOffsetDisableDistance", &UInterchangeInstancedFoliageTypeFactoryNode::execGetCustomWorldPositionOffsetDisableDistance },
+		{ "SetCustomAffectDistanceFieldLighting", &UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomAffectDistanceFieldLighting },
+		{ "SetCustomAlignToNormal", &UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomAlignToNormal },
+		{ "SetCustomRandomPitchAngle", &UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomRandomPitchAngle },
+		{ "SetCustomRandomYaw", &UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomRandomYaw },
+		{ "SetCustomScaleX", &UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomScaleX },
+		{ "SetCustomScaleY", &UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomScaleY },
+		{ "SetCustomScaleZ", &UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomScaleZ },
+		{ "SetCustomScaling", &UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomScaling },
+		{ "SetCustomStaticMesh", &UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomStaticMesh },
+		{ "SetCustomWorldPositionOffsetDisableDistance", &UInterchangeInstancedFoliageTypeFactoryNode::execSetCustomWorldPositionOffsetDisableDistance },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+}
+IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UInterchangeInstancedFoliageTypeFactoryNode);
+UClass* Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode_NoRegister()
+{
+	return UInterchangeInstancedFoliageTypeFactoryNode::StaticClass();
+}
+struct Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "IncludePath", "Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+		{ "ModuleRelativePath", "Private/Pipelines/Nodes/InterchangeInstancedFoliageTypeFactoryNode.h" },
+	};
+#endif // WITH_METADATA
+	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAffectDistanceFieldLighting, "GetCustomAffectDistanceFieldLighting" }, // 3827814143
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomAlignToNormal, "GetCustomAlignToNormal" }, // 349389600
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomPitchAngle, "GetCustomRandomPitchAngle" }, // 3252886057
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomRandomYaw, "GetCustomRandomYaw" }, // 2028507267
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleX, "GetCustomScaleX" }, // 3543890841
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleY, "GetCustomScaleY" }, // 1810953594
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaleZ, "GetCustomScaleZ" }, // 3620916655
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomScaling, "GetCustomScaling" }, // 649402093
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomStaticMesh, "GetCustomStaticMesh" }, // 1895399683
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_GetCustomWorldPositionOffsetDisableDistance, "GetCustomWorldPositionOffsetDisableDistance" }, // 3222748137
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAffectDistanceFieldLighting, "SetCustomAffectDistanceFieldLighting" }, // 1537725441
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomAlignToNormal, "SetCustomAlignToNormal" }, // 2067521820
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomPitchAngle, "SetCustomRandomPitchAngle" }, // 1057963498
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomRandomYaw, "SetCustomRandomYaw" }, // 3225973090
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleX, "SetCustomScaleX" }, // 2504767419
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleY, "SetCustomScaleY" }, // 3478138470
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaleZ, "SetCustomScaleZ" }, // 3465332343
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomScaling, "SetCustomScaling" }, // 1943875155
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomStaticMesh, "SetCustomStaticMesh" }, // 3998265881
+		{ &Z_Construct_UFunction_UInterchangeInstancedFoliageTypeFactoryNode_SetCustomWorldPositionOffsetDisableDistance, "SetCustomWorldPositionOffsetDisableDistance" }, // 1302549643
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
+	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UInterchangeInstancedFoliageTypeFactoryNode>::IsAbstract,
+	};
+	static const UECodeGen_Private::FClassParams ClassParams;
+};
+UObject* (*const Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode_Statics::DependentSingletons[])() = {
+	(UObject* (*)())Z_Construct_UClass_UInterchangeFactoryBaseNode,
+	(UObject* (*)())Z_Construct_UPackage__Script_Fab,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode_Statics::DependentSingletons) < 16);
+const UECodeGen_Private::FClassParams Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode_Statics::ClassParams = {
+	&UInterchangeInstancedFoliageTypeFactoryNode::StaticClass,
+	nullptr,
+	&StaticCppClassTypeInfo,
+	DependentSingletons,
+	FuncInfo,
+	nullptr,
+	nullptr,
+	UE_ARRAY_COUNT(DependentSingletons),
+	UE_ARRAY_COUNT(FuncInfo),
+	0,
+	0,
+	0x000000A0u,
+	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode_Statics::Class_MetaDataParams), Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode_Statics::Class_MetaDataParams)
+};
+UClass* Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode()
+{
+	if (!Z_Registration_Info_UClass_UInterchangeInstancedFoliageTypeFactoryNode.OuterSingleton)
+	{
+		UECodeGen_Private::ConstructUClass(Z_Registration_Info_UClass_UInterchangeInstancedFoliageTypeFactoryNode.OuterSingleton, Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode_Statics::ClassParams);
+	}
+	return Z_Registration_Info_UClass_UInterchangeInstancedFoliageTypeFactoryNode.OuterSingleton;
+}
+template<> FAB_API UClass* StaticClass<UInterchangeInstancedFoliageTypeFactoryNode>()
+{
+	return UInterchangeInstancedFoliageTypeFactoryNode::StaticClass();
+}
+UInterchangeInstancedFoliageTypeFactoryNode::UInterchangeInstancedFoliageTypeFactoryNode() {}
+DEFINE_VTABLE_PTR_HELPER_CTOR(UInterchangeInstancedFoliageTypeFactoryNode);
+UInterchangeInstancedFoliageTypeFactoryNode::~UInterchangeInstancedFoliageTypeFactoryNode() {}
+// End Class UInterchangeInstancedFoliageTypeFactoryNode
+
+// Begin Registration
+struct Z_CompiledInDeferFile_FID_LocalBuilds_Fab_0_0_4_HostProject_Plugins_Fab_Source_Fab_Private_Pipelines_Nodes_InterchangeInstancedFoliageTypeFactoryNode_h_Statics
+{
+	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
+		{ Z_Construct_UClass_UInterchangeInstancedFoliageTypeFactoryNode, UInterchangeInstancedFoliageTypeFactoryNode::StaticClass, TEXT("UInterchangeInstancedFoliageTypeFactoryNode"), &Z_Registration_Info_UClass_UInterchangeInstancedFoliageTypeFactoryNode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInterchangeInstancedFoliageTypeFactoryNode), 2489620709U) },
+	};
+};
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_LocalBuilds_Fab_0_0_4_HostProject_Plugins_Fab_Source_Fab_Private_Pipelines_Nodes_InterchangeInstancedFoliageTypeFactoryNode_h_526664813(TEXT("/Script/Fab"),
+	Z_CompiledInDeferFile_FID_LocalBuilds_Fab_0_0_4_HostProject_Plugins_Fab_Source_Fab_Private_Pipelines_Nodes_InterchangeInstancedFoliageTypeFactoryNode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_LocalBuilds_Fab_0_0_4_HostProject_Plugins_Fab_Source_Fab_Private_Pipelines_Nodes_InterchangeInstancedFoliageTypeFactoryNode_h_Statics::ClassInfo),
+	nullptr, 0,
+	nullptr, 0);
+// End Registration
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

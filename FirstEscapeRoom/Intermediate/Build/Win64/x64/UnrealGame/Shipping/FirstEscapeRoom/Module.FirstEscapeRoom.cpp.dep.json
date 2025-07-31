@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\durga\\documents\\github\\escaperoom\\firstescaperoom\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\firstescaperoom\\module.firstescaperoom.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\durga\\documents\\github\\escaperoom\\firstescaperoom\\intermediate\\build\\win64\\x64\\firstescaperoom\\shipping\\core\\sharedpch.core.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\durga\\documents\\github\\escaperoom\\firstescaperoom\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\firstescaperoom\\definitions.firstescaperoom.h",
+            "c:\\users\\durga\\documents\\github\\escaperoom\\firstescaperoom\\intermediate\\source\\firstescaperoom.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
