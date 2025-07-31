@@ -1,0 +1,11 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\durga\\Documents\\Github\\EscapeRoom\\FirstEscapeRoom\\Plugins\\Fab\\Source\\Fab\\Fab.Build.cs",
+		"C:\\Users\\durga\\Documents\\Github\\EscapeRoom\\FirstEscapeRoom\\Intermediate\\Source\\FirstEscapeRoom.Build.cs",
+		"C:\\Users\\durga\\Documents\\Github\\EscapeRoom\\FirstEscapeRoom\\Intermediate\\Source\\FirstEscapeRoom.Target.cs",
+		"C:\\Users\\durga\\Documents\\Github\\EscapeRoom\\FirstEscapeRoom\\Intermediate\\Source\\FirstEscapeRoomClient.Target.cs",
+		"C:\\Users\\durga\\Documents\\Github\\EscapeRoom\\FirstEscapeRoom\\Intermediate\\Source\\FirstEscapeRoomEditor.Target.cs",
+		"C:\\Users\\durga\\Documents\\Github\\EscapeRoom\\FirstEscapeRoom\\Intermediate\\Source\\FirstEscapeRoomServer.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
